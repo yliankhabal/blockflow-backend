@@ -16,7 +16,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
-    "prepare": "husky",
+    "prepare": "husky || true",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
