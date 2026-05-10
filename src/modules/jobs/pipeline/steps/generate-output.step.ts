@@ -15,7 +15,7 @@ export class GenerateOutputStep implements PipelineStep {
 
   async execute(jobId: string): Promise<void> {
     this.logger.log(`[${jobId}] Running step: ${this.name}`);
-    await wait(TIME.MINUTE * 3);
+    await wait(TIME.SECOND * 3);
     await this.jobsRepository.update(jobId, { progress: 100 });
   }
 }
