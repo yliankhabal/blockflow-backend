@@ -7,7 +7,8 @@ import 'dotenv/config';
 @Injectable()
 export class PrismaService extends PrismaClient implements OnModuleInit, OnModuleDestroy {
   constructor() {
-    const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
+    const ssl = process.env.DATABASE_SSL === 'true' ? { rejectUnauthorized: false } : undefined;
+    const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL, ssl });
     super({ adapter });
   }
 

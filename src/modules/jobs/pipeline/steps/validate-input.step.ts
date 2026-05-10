@@ -14,7 +14,7 @@ export class ValidateInputStep implements PipelineStep {
 
   async execute(jobId: string): Promise<void> {
     this.logger.log(`[${jobId}] Running step: ${this.name}`);
-    await wait(1000);
+    await wait(3000);
     await this.jobsRepository.update(jobId, { progress: 33 });
   }
 }
