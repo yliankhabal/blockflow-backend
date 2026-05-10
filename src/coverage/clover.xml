@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1778420552894" clover="3.2.0">
+  <project timestamp="1778420552895" name="All files">
+    <metrics statements="116" coveredstatements="82" conditionals="10" coveredconditionals="2" methods="22" coveredmethods="6" elements="148" coveredelements="90" complexity="0" loc="116" ncloc="116" packages="8" files="17" classes="17"/>
+    <package name="common.utils">
+      <metrics statements="13" coveredstatements="5" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="get-safe-env.utils.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/common/utils/get-safe-env.utils.ts">
+        <metrics statements="7" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/common/utils/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="wait.utils.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/common/utils/wait.utils.ts">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.database">
+      <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/database/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="prisma.module.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/database/prisma.module.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="prisma.service.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/database/prisma.service.ts">
+        <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.jobs">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="jobs.events.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/jobs/jobs.events.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="jobs.service.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/jobs/jobs.service.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.jobs.enums">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="job-status.enum.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/jobs/enums/job-status.enum.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="42" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.jobs.pipeline">
+      <metrics statements="29" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="pipeline.service.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/jobs/pipeline/pipeline.service.ts">
+        <metrics statements="29" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="16" type="stmt"/>
+        <line num="37" count="16" type="stmt"/>
+        <line num="38" count="15" type="stmt"/>
+        <line num="39" count="15" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.jobs.pipeline.steps">
+      <metrics statements="30" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="generate-output.step.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/jobs/pipeline/steps/generate-output.step.ts">
+        <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="transform-data.step.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/jobs/pipeline/steps/transform-data.step.ts">
+        <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="validate-input.step.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/jobs/pipeline/steps/validate-input.step.ts">
+        <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.repository">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/repository/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="repository.module.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/repository/repository.module.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.repository.repositories">
+      <metrics statements="8" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/repository/repositories/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="jobs.repository.ts" path="/Users/admin/My_own/rovel/blockflow/back-end/src/modules/repository/repositories/jobs.repository.ts">
+        <metrics statements="7" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
