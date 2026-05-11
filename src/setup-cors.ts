@@ -1,5 +1,4 @@
 import { INestApplication } from '@nestjs/common';
-
 import { getConfig } from './config';
 
 const isDevelopment = getConfig().node_env === 'development';
@@ -20,25 +19,42 @@ const normalizeOrigin = (url: string) => {
 };
 
 export function setupCors(app: INestApplication) {
+  console.log('ALLOWED ORIGINS:', originList);
+
   if (isDevelopment) {
     app.enableCors({
       origin: true,
       credentials: true,
     });
+
     return;
   }
 
   app.enableCors({
     origin: (origin, callback) => {
-      if (!origin) return callback(null, true);
+      if (!origin) {
+        return callback(null, true);
+      }
+
       const normalized = normalizeOrigin(origin);
+
+      console.log('REQUEST ORIGIN:', normalized);
+
       const isAllowed = originList.some(o => normalizeOrigin(o) === normalized);
-      if (isAllowed) return callback(null, true);
-      return callback(new Error('CORS: Origin not allowed'));
+
+      console.log('IS ALLOWED:', isAllowed);
+
+      // IMPORTANT:
+      // do NOT throw errors here
+      return callback(null, isAllowed);
     },
+
     credentials: true,
-    methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
+
+    methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE', 'OPTIONS'],
+
     allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'X-Requested-With'],
+
     exposedHeaders: ['Content-Disposition'],
   });
 }
