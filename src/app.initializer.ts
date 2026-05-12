@@ -39,7 +39,7 @@ export function initDocs(app: NestExpressApplication) {
     .setTitle('Job Processing API')
     .setDescription(
       'Async job processing pipeline with real-time WebSocket updates.\n\n' +
-        '**WebSocket:** Connect to ws://localhost:3000, emit `subscribe` with `{ jobId }`, listen for `job:update`.',
+        '**WebSocket:** emit `subscribe` with `{ jobId }`, listen for `job:update`.',
     )
     .setVersion('1.0')
     .build();
